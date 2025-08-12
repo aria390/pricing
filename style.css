@@ -6,11 +6,10 @@
 header{
     text-align: center;
     margin-bottom: 60px;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 body{
     background-color: #F7F7FF
-
 }
 main{
 margin: auto;
@@ -20,34 +19,39 @@ margin: auto;
 text-align: center;
 display: inline-block;
 border: 1px solid white;
-border-radius: 5px;
-padding: 25px;
+border-radius: 7px;
+padding: 40px;
 background-color: rgb(255, 251, 251);
 }
 .basic p{
     padding: 20px;
     font-weight: 700;
     font-size: 20px;
+        color: #666882;
+
 }
 .professional{
 text-align: center;
 display: inline-block;
 border: 1px solid white;
-border-radius: 5px;
+border-radius: 7px;
 background-color: #9B9FEE;
-padding: 35px;
-padding-top: 30px;}
+padding: 60px;
+padding-top: 35px;
+height: 535px;
+}
 .professional p{
-    padding: 25px;
+    padding: 22px;
     font-weight: 700;
     font-size: 20px;
+    color: white;
 }
 .master{
 text-align: center;
 display: inline-block;
 border: 1px solid white;
-border-radius: 5px;
-padding: 25px;
+border-radius: 7px;
+padding: 40px;
 background-color: rgb(255, 251, 251);
 
 }
@@ -55,21 +59,52 @@ background-color: rgb(255, 251, 251);
     padding: 20px;
     font-weight: 700;
     font-size: 20px;
+    color: #666882;
 }
 h1{
     color: rgb(111, 115, 144);
 }
 button{
-    width: 200px;
-    height: 30px;
+    width: 220px;
+    height: 40px;
     border: 1px;
     border-radius: 5px;
     margin-top: 20px;
 }
 .basic button{
     background-color: #9B9FEE;
+    color: white;
 }
 .basic button:hover{
     background-color: rgb(255, 251, 251);
-    border: 1px solid black;
+    border: 2px solid rgb(229, 231, 235);
+    color: #9B9FEE;
+}
+.professional hr{
+    border: 1px solid white;
+    width: 220px;
+}
+.basic hr{
+    border: 1px solid rgb(229, 231, 235);
+}
+.master hr{
+    border: 1px solid rgb(229, 231, 235);
+}
+.professional button{
+    background-color: white;
+    color: #9B9FEE;
+}
+.professional button:hover{
+    background-color: #9B9FEE;
+    border: 2px solid rgb(229, 231, 235);
+    color: white;
+}
+.master button{
+    background-color: #9B9FEE;
+    color: white;
+}
+.master button:hover{
+    background-color: rgb(255, 251, 251);
+    border: 2px solid rgb(229, 231, 235);
+    color: #9B9FEE;
 }
