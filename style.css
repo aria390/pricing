@@ -8,13 +8,13 @@ header{
     text-align: center;
     margin-bottom: 60px;
     margin-top: 50px;
-        font-family: ui-sans-serif,Inder;w
+    font-family: ui-sans-serif,Inder;
 }
 body{
     background-color: #F7F7FF
 }
 main{
-margin: auto;
+    margin: auto;
     text-align: center;
     font-family: ui-sans-serif,Inder;
 }
@@ -25,6 +25,7 @@ border: 1px solid white;
 border-radius: 7px;
 padding: 40px;
 background-color: rgb(255, 251, 251);
+height: 520px;
 }
 .basic p{
     padding: 20px;
@@ -41,7 +42,7 @@ border-radius: 7px;
 background-color: #9B9FEE;
 padding: 60px;
 padding-top: 35px;
-height: 535px;
+height: 550px;
 }
 .professional p{
     padding: 22px;
@@ -56,7 +57,7 @@ border: 1px solid white;
 border-radius: 7px;
 padding: 40px;
 background-color: rgb(255, 251, 251);
-
+height: 520px;
 }
 .master p{
     padding: 20px;
@@ -83,10 +84,6 @@ button{
     background-color: rgb(255, 251, 251);
     border: 2px solid rgb(229, 231, 235);
     color: #9B9FEE;
-}
-.professional hr{
-    border: 1px solid white;
-    width: 220px;
 }
 .basic hr{
     border: 1px solid rgb(229, 231, 235);
